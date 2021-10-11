@@ -1,0 +1,22 @@
+.header {
+  height: 400px;
+  background-color: pink;
+}
+
+.container {
+  display: grid;
+  padding: 20px;
+  background-color: lightblue;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 2px;
+  height: 2500px;
+}
+
+.item {
+  align-self: center;
+  width: 300px;
+  height: 200px;
+  background-color: yellow;
+  border: lightsalmon 2px solid;
+}
